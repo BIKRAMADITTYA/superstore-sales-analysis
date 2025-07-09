@@ -12,6 +12,17 @@ An end-to-end data analytics project using **Python**, **MySQL**, and **Power BI
 
 ---
 
+## 🛠️ Tools & Technologies Used
+
+- **Python** – Data cleaning and transformation (`pandas`, `numpy`)
+- **MySQL** – Data loading and SQL-based analytics
+- **Power BI** – Dashboard visualization and reporting
+- **Excel** – Source dataset
+- **ODBC** – Power BI to MySQL integration
+
+---
+
+
 ## 📁 Project Files
 
 | File | Description |
@@ -133,7 +144,13 @@ The dashboard was created using Power BI connected to MySQL via ODBC.
 ![Superstore Data Analysis Dashboard](https://github.com/BIKRAMADITTYA/superstore-sales-analysis/blob/main/Superstore%20Data%20Analysis%20Dashboard.png?raw=true)
 
 ---
+## 🎓 What I Learned
 
+- Built end-to-end ETL and BI workflow from raw Excel to final dashboard
+- Improved skills in data profiling, SQL joins, and visual storytelling
+- Gained hands-on experience in integrating Power BI with SQL
+
+---
 ## 📈 Key Takeaways
 
 * Efficient data cleaning helped resolve inconsistencies.
