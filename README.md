@@ -60,18 +60,29 @@ df_order.to_csv("orders_cleaned.csv", index=False)
 **After Filling:** All missing values resolved (0 remaining)
 
 ---
+## 🗃️ SQL Analysis Achievements
 
-## 📃 SQL Analysis Highlights
+Performed SQL analysis using MySQL on cleaned Superstore data to uncover key business insights. The following are some key highlights from the queries:
 
-The cleaned data was imported into **MySQL** and explored with SQL queries. Key analysis included:
+### 📌 Key Insights Extracted:
 
-* 📌 **Top 10 Products** by Sales and Profit
-* 📍 **State & Region-wise Sales and Profit**
-* 📆 **Monthly and Yearly Sales Trends**
-* 🔄 **Returned Orders Analysis** (joins with returns table)
-* 👨‍💼 **Manager-wise Performance** (joins with people table)
+- 🔝 **Top 10 Products by Sales**
+- 🧑‍💼 **Top 10 Customers by Profit**
+- 🗺️ **State & Region-wise Sales and Profit Distribution**
+- 📆 **Monthly and Yearly Sales & Profit Trends (2016-2019)**
+- 🔁 **Return Rate Analysis by Sub-Category and Manager**
+- 🏆 **Top Performing Managers** based on region-wise profit and sales
+- 📦 **Most Returned Sub-Categories**
+- 💼 **Profit Contribution % by State**
+- 📉 **Total Quantity, Sales, Profit** 
+- 🔄 **Join Analysis:**  
+  - `orders_cleaned` ⬌ `returns` — to analyze returned orders  
+  - `orders_cleaned` ⬌ `people` — to identify regional managers  
+  - All 3 tables joined for holistic sales-return-manager overview
 
-🔹 [View SQL Script](https://github.com/BIKRAMADITTYA/superstore-sales-analysis/blob/main/Superstore_Database.sql)
+📂 View Full SQL File:  
+➡️ [`Superstore_Database.sql`](https://github.com/BIKRAMADITTYA/superstore-sales-analysis/blob/main/Superstore_Database.sql)
+
 
 ---
 
