@@ -14,15 +14,16 @@ An end-to-end data analytics project using **Python**, **MySQL**, and **Power BI
 
 ## 📁 Project Files
 
-| File                                                                                                                                                | Description                           |
-| --------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------- |
-| `Superstore Dataset(RAW).xlsx`                                                                                                                      | Raw Excel dataset                     |
-| `data_cleaning_superstore.py`                                                                                                                       | Python script for cleaning and export |
-| `orders_cleaned.csv`                                                                                                                                | Cleaned dataset after preprocessing   |
-| `people.csv`, `returns.csv`                                                                                                                         | Lookup and return tables              |
-| [`Superstore_Database.sql`](https://github.com/BIKRAMADITTYA/superstore-sales-analysis/blob/main/Superstore_Database.sql)                           | SQL queries and schema                |
-| `Superstore_Sales_Analysis Dashboard.pbix`                                                                                                          | Power BI dashboard file               |
-| ![Dashboard Screenshot](https://github.com/BIKRAMADITTYA/superstore-sales-analysis/blob/main/Superstore%20Data%20Analysis%20Dashboard.png?raw=true) | Final dashboard preview               |
+| File | Description |
+|------|-------------|
+| [`Superstore Dataset(RAW).xlsx`](https://github.com/BIKRAMADITTYA/superstore-sales-analysis/blob/main/Superstore%20Dataset(RAW).xlsx) | Raw Excel dataset |
+| [`data_cleaning_superstore.py`](https://github.com/BIKRAMADITTYA/superstore-sales-analysis/blob/main/data_cleaning_superstore.py) | Python script for cleaning and export |
+| [`orders_cleaned.csv`](https://github.com/BIKRAMADITTYA/superstore-sales-analysis/blob/main/orders_cleaned.csv) | Cleaned dataset after preprocessing |
+| [`people.csv`](https://github.com/BIKRAMADITTYA/superstore-sales-analysis/blob/main/people.csv), [`returns.csv`](https://github.com/BIKRAMADITTYA/superstore-sales-analysis/blob/main/returns.csv) | Lookup and return tables |
+| [`Superstore_Database.sql`](https://github.com/BIKRAMADITTYA/superstore-sales-analysis/blob/main/Superstore_Database.sql) | SQL queries and schema |
+| [`Superstore_Sales_Analysis Dashboard.pbix`](https://github.com/BIKRAMADITTYA/superstore-sales-analysis/blob/main/Superstore_Sales_Analysis%20Dashboard.pbix) | Power BI dashboard file |
+| ![Dashboard Screenshot](https://github.com/BIKRAMADITTYA/superstore-sales-analysis/blob/main/Superstore%20Data%20Analysis%20Dashboard.png?raw=true) | Final dashboard preview |
+
 
 ---
 
@@ -78,14 +79,26 @@ The cleaned data was imported into **MySQL** and explored with SQL queries. Key 
 
 The dashboard was created using Power BI connected to MySQL via ODBC.
 
-### 📅 Dashboard Features:
+### 📅 Dashboard Features
 
-* 📆 **Year-wise Monthly Sales/Profit Trends**
-* 🛋️ **Top-Selling Products**
-* 📍 **State-wise Profit Map**
-* 🌐 **Return Rates by Sub-category and Manager**
-* 💼 **Region-wise Manager KPIs**
-* ⚖️ **Profit Margins, Quantity, Sales filters**
+* 📆 Monthly Sales & Profit trends (2016–2019)
+* 🛍️ Top 10 products by sales
+* 🗺️ State-wise performance map
+* 📦 Sales by ship mode
+* 🧑‍💼 Manager-wise regional filter
+* 🎯 KPI cards: Total Sales & Profit
+* 🔁 Return rate insights (SQL-based)
+* 📊 Category-wise sales breakdown
+* 🧠 Year selection slicer
+* 📈 Monthly profit margin trend
+* 📌 Fully interactive & responsive visuals
+* 🖼️ Clean dark-themed layout
+
+
+### 🧩 Download Dashboard:
+
+➡️ **[Download Power BI Dashboard (.pbix)](https://github.com/BIKRAMADITTYA/superstore-sales-analysis/blob/main/Superstore_Sales_Analysis%20Dashboard.pbix)**
+
 
 ### 📸 Dashboard Screenshot:
 
