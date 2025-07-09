@@ -1,2 +1,3 @@
-# superstore-sales-analysis
-End-to-end sales analysis using Python, MySQL, and Power BI
+➡️ **[View SQL Script](./Superstore_Database.sql)**
+
+![Dashboard Screenshot](./Superstore%20Data%20Analysis%20Dashboard.png)
