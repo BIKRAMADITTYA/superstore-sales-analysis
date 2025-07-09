@@ -60,6 +60,23 @@ df_order.to_csv("orders_cleaned.csv", index=False)
 **After Filling:** All missing values resolved (0 remaining)
 
 ---
+
+## 🔄 ETL Process Overview
+
+This project followed a manual ETL (Extract, Transform, Load) pipeline using Python and MySQL:
+
+- **Extract**: Raw Excel files (`orders`, `returns`, `people`) were read using `pandas`.
+- **Transform**:
+  - Missing values handled (e.g. filled 11 missing postal codes with '05401')
+  - Data normalized and grouped by key metrics (product, region, time)
+- **Load**:
+  - Cleaned dataset exported to `orders_cleaned.csv`
+  - Loaded into MySQL for further analysis via SQL queries and joins
+
+The cleaned data was then used as a source for Power BI dashboard creation.
+---
+
+
 ## 🗃️ SQL Analysis Achievements
 
 Performed SQL analysis using MySQL on cleaned Superstore data to uncover key business insights. The following are some key highlights from the queries:
