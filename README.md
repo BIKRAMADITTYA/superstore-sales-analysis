@@ -159,7 +159,6 @@ The dashboard was created using Power BI connected to MySQL via ODBC.
 * Integrated returns and manager analysis enhanced decision-making.
 
 ---
-
-**Author:** [Bikramadittya Nandan](https://github.com/BIKRAMADITTYA)
-
-**Repository:** [Superstore Sales Analysis](https://github.com/BIKRAMADITTYA/superstore-sales-analysis)
+🧑‍💻 Developed by: Bikramadittya Nandan
+🔗 LinkedIn: linkedin.com/in/bikramadittya-nandan-7b6285151
+📂 Project Repository: Superstore Sales Analysis
